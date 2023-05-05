@@ -2,9 +2,13 @@ let result = document.getElementById("result");
 let searchBtn = document.getElementById("search-btn");
 let url = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 
-let userInp = document.getElementById("user-inp").value;
-
-fetch(url + "pizza")
+searchBtn.addEventListener("click", () => {
+  let userInp = document.getElementById("user-inp").value;
+  if(userInp.length == 0){
+      result.innerHTML = '<h3>Input Field Cannot Be Empty</h3>';
+  }
+  else{
+    fetch(url + userInp)
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
@@ -47,4 +51,24 @@ fetch(url + "pizza")
     let recipe = document.getElementById("recipe");
     let hideRecipe = document.getElementById("hide-recipe");
     let showRecipe = document.getElementById("show-recipe");
-  });
+
+    ingredients.forEach((i) => {
+      let child = document.createElement("li");
+      child.innerText = i;
+      parent.appendChild(child);
+      ingredientCon.appendChild(parent);
+    });
+
+    hideRecipe.addEventListener("click", () => {
+      recipe.style.display = "none";
+    });
+    showRecipe.addEventListener("click", () => {
+      recipe.style.display = "block";
+    });
+  }).catch(()=>{
+      result.innerHTML = `<h3>Invalid Input</h3>`
+  })
+
+  }
+});
+
