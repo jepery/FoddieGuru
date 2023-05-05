@@ -7,3 +7,5 @@ At FoddieGuru, we believe that food is not just a basic necessity but an art for
 Whether you're a seasoned foodie or just starting to explore the world of gastronomy, we've got you covered. Our platform is packed with a wide range of food-related content, including articles, videos, podcasts, and social media posts, all curated by our team of experts.
 
 So why wait? Join the FoddieGuru community today and let us guide you on a journey of culinary discovery!
+
+# Services
