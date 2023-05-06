@@ -5,26 +5,25 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
-  
 }
 
 body {
   background-color: #f4c531;
 }
 
-.nav-item a{
-    display:flex;
-    align-items: center !important;
-    justify-content: center;
+.nav-item a {
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
 }
 
 .logo {
   position: absolute;
-  width: auto;
-  height: auto;
+  width: 30%;
+  height: 60%;
   transform: translate(-50%);
   left: 50%;
-  margin-top: 120px;
+  margin-top: 150px;
 }
 
 .container {
@@ -135,13 +134,20 @@ h3 {
   color: #202030;
 }
 
-footer{
-    position: fixed;
-    margin-top: 70%;
-    height: 80;
-    width: 100%;
-    font-size: 0.8em;
-    bottom: 0;
+footer {
+  position: fixed;
+  margin-top: 2%;
+  height: 80;
+  width: 100%;
+  font-size: 0.8em;
+  bottom: 0;
+  text-align: center;
+}
+
+.coming-soon {
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 10%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -149,9 +155,15 @@ footer{
     font-size: 14px;
   }
 
-  footer{
-    display: none;
+  .logo {
+    width: 100%;
+    height: 50%;
   }
-  
 }
 
+@media only screen and (max-width: 1000px) {
+  .logo {
+    width: 100%;
+    height: 50%;
+  }
+}
