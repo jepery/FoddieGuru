@@ -19,6 +19,9 @@ So why wait? Join the FoddieGuru community today and let us guide you on a journ
 <h1>#BUGS | ISSUES</h1>
 
 <h3>Please list any bugs you encountered here.</h3>
-1.
-2.
-3.
+1. 
+
+<h1>Scopes and Limitation</h1>
+1. not all dish is present in the API
+2. some dish have speccific name 
+3. serving amount is not specific
