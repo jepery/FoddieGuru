@@ -16,6 +16,6 @@ So why wait? Join the FoddieGuru community today and let us guide you on a journ
 
 ![FoodieGuru](https://user-images.githubusercontent.com/124416304/236598955-4d59e47c-eeb9-4f8c-9c26-400874cdef3f.png)
 
-#BUGS | ISSUES
+<h1>#BUGS | ISSUES</h1>
 
 <h3>Please list any bugs you encountered here.</h3>
