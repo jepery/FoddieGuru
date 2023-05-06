@@ -5,7 +5,9 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
+  
 }
+
 body {
   background-color: #f4c531;
 }
@@ -31,12 +33,14 @@ body {
   padding: 3em 2.8em;
   width: 90vw;
   max-width: 40em;
+  max-height: 48em;
   position: absolute;
   transform: translate(-50%);
   left: 50%;
   margin-top: 40px;
   border-radius: 0.6em;
   box-shadow: 0 1.2em 2.5em rgba(42, 32, 0, 0.2);
+  overflow-y: scroll;
 }
 .search-container {
   width: 100%;
@@ -131,9 +135,23 @@ h3 {
   color: #202030;
 }
 
-@media sreen and (max-width: 500px) {
+footer{
+    position: fixed;
+    margin-top: 70%;
+    height: 80;
+    width: 100%;
+    font-size: 0.8em;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
   .container {
     font-size: 14px;
   }
+
+  footer{
+    display: none;
+  }
   
 }
+

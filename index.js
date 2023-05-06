@@ -1,6 +1,15 @@
 let result = document.getElementById("result");
 let searchBtn = document.getElementById("search-btn");
+let userInp = document.getElementById("user-inp");
 let url = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
+
+userInp.addEventListener("keyup", function(event) {
+  
+  if (event.keyCode === 13) {
+    
+    searchBtn.click();
+  }
+});
 
 searchBtn.addEventListener("click", () => {
   let userInp = document.getElementById("user-inp").value;
