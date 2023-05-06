@@ -19,3 +19,6 @@ So why wait? Join the FoddieGuru community today and let us guide you on a journ
 <h1>#BUGS | ISSUES</h1>
 
 <h3>Please list any bugs you encountered here.</h3>
+1.
+2.
+3.
