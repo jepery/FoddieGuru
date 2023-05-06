@@ -15,23 +15,60 @@
   </head>
   <body>
     <!--*********************************************************Navbar Section*********************************************************************************-->
-    
-    <!--*********************************************************Main Section*********************************************************************************-->
-    <div class="container">
-      <div class="search-container">
-        <input
-          type="text"
-          placeholder="Type A Dish Name Here.."
-          id="user-inp"
-        />
-        <button id="search-btn">Search</button>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a href="#" class="navbar-brand ps-3"
+        >Foodie<span class="text-warning">Guru</span></a
+      >
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto pe-3">
+          <li class="nav-item">
+            <a href="#about" class="nav-link text-warning">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#restaurants" class="nav-link text-warning">Restaurants</a>
+          </li>
+          <li class="nav-item">
+            <a href="#hireacook" class="nav-link text-warning">Hire A Cook</a>
+        </ul>
       </div>
-      <div id="result"></div>
+    </nav>
+
+    <div class="logo-container">
+      <img
+        class="logo"
+        src="https://github.com/jepery/FoddieGuru/blob/main/img/FoodieGuru.png?raw=true"
+        alt="FoddieGuru Logo"
+      />
     </div>
-    
+
+    <!--*********************************************************Main Section*********************************************************************************-->
+      <div class="container">
+        <div class="search-container">
+          <input
+            type="text"
+            placeholder="Type A Dish Name Here.."
+            id="user-inp"
+          />
+          <button id="search-btn">Search</button>
+        </div>
+        <div id="result"></div>
+      </div>
 
     <!--*********************************************************Footer Section*********************************************************************************-->
-
+    
+   
 
     <script src="index.js"></script>
     <script
