@@ -18,4 +18,4 @@ So why wait? Join the FoddieGuru community today and let us guide you on a journ
 
 #BUGS | ISSUES
 
-<h1>Please list any bugs you encountered here.</h1>
+<h3>Please list any bugs you encountered here.</h3>
