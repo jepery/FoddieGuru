@@ -23,7 +23,7 @@ So why wait? Join the FoddieGuru community today and let us guide you on a journ
 
 <h1>Scopes and Limitation</h1>
 <ul>
-  <li>1. not all dish is present in the API</li>
-<li>2. some dish have speccific name</li>
-<li>3. serving amount is not specific</li>
+<li>not all dish is present in the API</li>
+<li>some dish have speccific name</li>
+<li>serving amount is not specific</li>
 </ul>
