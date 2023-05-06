@@ -1,4 +1,4 @@
-# FoddieGuru
+# FoodieGuru
 
 Welcome to FoddieGuru, your go-to destination for culinary exploration and indulgence! We are a team of food enthusiasts who are passionate about sharing our love for food with the world. Our platform is designed to provide you with a one-stop-shop for all things related to food, from recipes and cooking tips to restaurant recommendations and food reviews.
 
