@@ -10,7 +10,7 @@ So why wait? Join the FoddieGuru community today and let us guide you on a journ
 
 # Services
 
-1. Search for Food that you crave and see how it is cooked.
+1. Search for Food that you crave and see the hidden recipe.
 2. Find Restaurants that serve the Foodie that you crave. (Coming Soon)
 3. Find someone to cook for you the Foodie that you crave in the convinient of your home (the cook is also the responsible of buying the ingredients). (Coming Soon)
 
